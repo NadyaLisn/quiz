@@ -1,0 +1,131 @@
+.answers-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-test {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.test {
+    color: #DCDCF3;
+    font-size: 20px;
+}
+
+.result-test img {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.test-pre-title {
+    color: rgb(105, 51, 220);
+    font-size: 20px;
+}
+
+.answers-title {
+    font-size: 54px;
+    margin-bottom: 10px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
+.answers-item {
+    margin-bottom: 60px;
+}
+
+.answers-item-title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
+.answers-item-title span {
+    color: rgb(105, 51, 220);
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+    margin: 0 13px 0 0;
+    transform: translateY(2px);
+}
+
+.answer-version {
+    display: flex;
+}
+
+input[type="radio"].correct-answer {
+    border: 7px solid #5FDC33;
+
+}
+
+
+.correct-answer {
+    color: #5FDC33;
+    font-size: 20px;
+}
+
+.not-correct-answer {
+    color: rgb(220, 51, 51);
+    font-size: 20px;
+}
+
+input[type="radio"].not-correct-answer {
+    border: 7px solid rgb(220, 51, 51);
+}
+
+
+.answer-text {
+    font-size: 20px;
+}
+
+.answer-version:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.back-result {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-result a {
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(105, 51, 220);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.back-result a img {
+    margin-left: 13px;
+}
+
+.answers-info {
+    display: flex;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+
+.answers-info-text {
+    font-size: 20px;
+}
+
+.answers-info-name {
+    font-size: 20px;
+    color: rgb(105, 51, 220);
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
+.answers-info-email {
+    font-size: 20px;
+    color: rgb(105, 51, 220);
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
